@@ -37,6 +37,9 @@ nav > span {
 
 main {
   padding: 60px 30px;
+  background-image: url(/workspaces/react-practice/my-react-app/src/react-half.jpg);
+  background-repeat: no-repeat;
+  background-position: right 70%;
 }
 
 main > h1 {
@@ -53,4 +56,9 @@ main > h1 {
 .facts-list > li {
   padding-block: 10px;
   line-height: 19px;
+}
+
+.facts-list > li::marker {
+  color:#61DAFB;
+  font-size: 1.9rem;
 }
