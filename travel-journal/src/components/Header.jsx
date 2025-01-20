@@ -4,7 +4,7 @@ export default function Header (){
     return (
         <header className='header-class'>
             <img className='globe-icon' src={globe} alt = "icon of globe"/>
-            <span>my travel journal</span>
+            <h1>my travel journal</h1>
         </header>
         
     );
