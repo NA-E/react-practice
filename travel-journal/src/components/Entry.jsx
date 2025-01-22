@@ -1,6 +1,7 @@
 import marker from "../images/marker.png"
 
-export default function Entry (props) {
+export default function Entry ({key, props}) {
+    console.log(props);
     return (
         <article className="journal-entry">
             <div className="main-image-container">
@@ -21,7 +22,7 @@ export default function Entry (props) {
                 
                 <p className="trip-dates">{props.dates}</p>
                 
-                <p className="entry-text">Mofeet){props.text}</p>
+                <p className="entry-text">{props.text}</p>
             </div>
         </article>
     );
